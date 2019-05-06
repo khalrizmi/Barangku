@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Barangku</string>
+    <string name="temukan_laporkan"><![CDATA[Temukan & Laporkan]]></string>
+    <string name="copywrite">"@HamzStudio"</string>
+</resources>

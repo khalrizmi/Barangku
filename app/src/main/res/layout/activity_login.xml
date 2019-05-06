@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".ui.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Barangku"
+        android:textAlignment="center"
+        android:fontFamily="@font/righteous"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="Solusi untuk barang hilang"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:fontFamily="@font/lato"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark"
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="40" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/lato"
+        android:textColor="@color/colorPrimaryDark"
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="20" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:fontFamily="@font/lato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="MASUK"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
